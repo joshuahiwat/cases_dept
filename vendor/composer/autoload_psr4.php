@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'lib\\' => array($baseDir . '/lib'),
+    'M1\\Env\\' => array($vendorDir . '/m1/env/src'),
 );

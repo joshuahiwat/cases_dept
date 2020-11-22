@@ -11,12 +11,31 @@ class ComposerStaticInit75109c5c8f1f5e6f78695bcd472a8541
         array (
             'lib\\' => 4,
         ),
+        'M' => 
+        array (
+            'M1\\Env\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'lib\\' => 
         array (
             0 => __DIR__ . '/../..' . '/lib',
+        ),
+        'M1\\Env\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/m1/env/src',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'j' => 
+        array (
+            'josegonzalez\\Dotenv' => 
+            array (
+                0 => __DIR__ . '/..' . '/josegonzalez/dotenv/src',
+                1 => __DIR__ . '/..' . '/josegonzalez/dotenv/tests',
+            ),
         ),
     );
 
@@ -29,6 +48,7 @@ class ComposerStaticInit75109c5c8f1f5e6f78695bcd472a8541
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit75109c5c8f1f5e6f78695bcd472a8541::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit75109c5c8f1f5e6f78695bcd472a8541::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit75109c5c8f1f5e6f78695bcd472a8541::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit75109c5c8f1f5e6f78695bcd472a8541::$classMap;
 
         }, null, ClassLoader::class);

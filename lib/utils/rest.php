@@ -2,6 +2,7 @@
 
 namespace lib\utils;
 
+use josegonzalez\Dotenv\Loader;
 use lib\logic\middleWare;
 
 /**
@@ -10,8 +11,6 @@ use lib\logic\middleWare;
  */
 final class rest
 {
-    const CREDENTIALS = '123';
-
     /**
      * @var string
      */
@@ -67,9 +66,13 @@ final class rest
      */
     private function getCredentials()
     {
-        if($this->credentials === self::CREDENTIALS) {
+        $Loader = new Loader('.env');
+        $Loader->parse();
+        $Loader->toEnv();
+
+        if($this->credentials == $_ENV['key']) {
             return true;
         }
-        return true;
+        return false;
     }
 }

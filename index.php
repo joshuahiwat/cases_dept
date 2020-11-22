@@ -5,7 +5,7 @@ require __DIR__ .'/vendor/autoload.php';
 use lib\utils\rest;
 
 $rest = new rest(
-    'lol',
+    '123',
     'hello',
     [
         'method' => 'movies',
