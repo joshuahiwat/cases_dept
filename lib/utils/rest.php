@@ -12,39 +12,17 @@ use lib\logic\middleWare;
 final class rest
 {
     /**
-     * @var string
-     */
-    private string $credentials;
-    /**
-     * @var array
-     */
-    private array $data;
-
-    /**
-     * Rest constructor.
-     *
-     * @param string $credentials Credentials of the api
-     * @param array $data Bundle of data what can be used to call a method of for some call to actions
-     */
-    public function __construct(
-        string $credentials,
-        array $data
-    )
-    {
-        $this->credentials = $credentials;
-        $this->data = $data;
-    }
-
-    /**
      * Run API rest method and get request data
      *
+     * @param string $credentials
+     * @param string $data
      * @return false|middleWare
      */
-    public function run()
+    public function run(string $credentials, string $data)
     {
-        if($this->getCredentials()) {
+        if($this->getCredentials($credentials)) {
             $middleware = new middleWare(
-                (object) $this->data
+                (object) json_decode($data, true)
             );
             return $middleware->run();
         }
@@ -54,15 +32,16 @@ final class rest
     /**
      * Check if credentials are correct
      *
+     * @param string $credentials
      * @return bool
      */
-    private function getCredentials()
+    private function getCredentials(string $credentials)
     {
         $Loader = new Loader('.env');
         $Loader->parse();
         $Loader->toEnv();
 
-        if($this->credentials == $_ENV['key']) {
+        if($credentials == $_ENV['key']) {
             return true;
         }
         return false;

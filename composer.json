@@ -5,6 +5,8 @@
     }
   },
   "require": {
-    "josegonzalez/dotenv": "dev-master"
+    "josegonzalez/dotenv": "dev-master",
+    "marcj/php-rest-service": "*",
+    "ext-json": "*"
   }
 }

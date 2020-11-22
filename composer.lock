@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59b6888ed78193cf31b6e13dd5853abf",
+    "content-hash": "e30c4323c328ecd10abd31e7f56c1206",
     "packages": [
         {
             "name": "josegonzalez/dotenv",
@@ -125,6 +125,54 @@
                 "source": "https://github.com/m1/Env/tree/2.2.0"
             },
             "time": "2020-02-19T09:02:13+00:00"
+        },
+        {
+            "name": "marcj/php-rest-service",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcj/php-rest-service.git",
+                "reference": "38848264ee5c6dbb61291ead257ddd03b4b9cdb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcj/php-rest-service/zipball/38848264ee5c6dbb61291ead257ddd03b4b9cdb1",
+                "reference": "38848264ee5c6dbb61291ead257ddd03b4b9cdb1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "RestService": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc J. Schmidt",
+                    "email": "marc@kryn.org",
+                    "homepage": "http://marcjschmidt.de"
+                }
+            ],
+            "description": "PHPRestService is a simple and fast PHP class for server side RESTful APIs.",
+            "keywords": [
+                "api",
+                "php",
+                "rest",
+                "restful"
+            ],
+            "support": {
+                "issues": "https://github.com/marcj/php-rest-service/issues",
+                "source": "https://github.com/marcj/php-rest-service/tree/master"
+            },
+            "abandoned": true,
+            "time": "2013-12-06T02:32:09+00:00"
         }
     ],
     "packages-dev": [],
@@ -135,7 +183,9 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }

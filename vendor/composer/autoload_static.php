@@ -37,6 +37,13 @@ class ComposerStaticInit75109c5c8f1f5e6f78695bcd472a8541
                 1 => __DIR__ . '/..' . '/josegonzalez/dotenv/tests',
             ),
         ),
+        'R' => 
+        array (
+            'RestService' => 
+            array (
+                0 => __DIR__ . '/..' . '/marcj/php-rest-service',
+            ),
+        ),
     );
 
     public static $classMap = array (
