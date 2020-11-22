@@ -39,7 +39,7 @@ class outsideModule implements outsideModuleTemplate
     /**
      * Create curl request and get data from IMDB
      *
-     * @param string $request
+     * @param string $request Request url to get information from a certain api
      * @return array|bool
      */
     public function getRequest(string $request)

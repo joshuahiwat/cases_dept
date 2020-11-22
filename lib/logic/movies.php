@@ -25,7 +25,7 @@ class movies
     /**
      * movies constructor.
      *
-     * @param string $title
+     * @param string $title Title of the movie
      */
     public function __construct(
         string $title

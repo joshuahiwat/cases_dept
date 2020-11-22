@@ -19,7 +19,7 @@ class titles
     /**
      * Get All movie titles by a specific genre
      *
-     * @param object $data
+     * @param object $data All data that can be used to receive data from api
      * @return string
      */
     public function getTitlesByGenre(
@@ -62,7 +62,7 @@ class titles
     /**
      * Search movie title by name and retrieve all details
      *
-     * @param string|null $name
+     * @param string|null $name Title name of the movie
      * @return array|bool
      */
     public function getTitleByName(string $name = null)

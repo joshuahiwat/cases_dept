@@ -16,10 +16,6 @@ final class rest
      */
     private string $credentials;
     /**
-     * @var string
-     */
-    private string $type;
-    /**
      * @var array
      */
     private array $data;
@@ -27,18 +23,15 @@ final class rest
     /**
      * Rest constructor.
      *
-     * @param string $credentials
-     * @param string $type
-     * @param array $data
+     * @param string $credentials Credentials of the api
+     * @param array $data Bundle of data what can be used to call a method of for some call to actions
      */
     public function __construct(
         string $credentials,
-        string $type,
         array $data
     )
     {
         $this->credentials = $credentials;
-        $this->type = $type;
         $this->data = $data;
     }
 
@@ -51,7 +44,6 @@ final class rest
     {
         if($this->getCredentials()) {
             $middleware = new middleWare(
-                $this->type,
                 (object) $this->data
             );
             return $middleware->run();

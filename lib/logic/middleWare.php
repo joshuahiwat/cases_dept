@@ -10,10 +10,6 @@ namespace lib\logic;
 final class middleWare
 {
     /**
-     * @var string
-     */
-    private string $type;
-    /**
      * @var object
      */
     private object $data;
@@ -21,12 +17,10 @@ final class middleWare
     /**
      * middleWare constructor.
      *
-     * @param string $type
-     * @param object $data
+     * @param object $data Bundle of data what can be used to call a method of for some call to actions
      */
-    public function __construct(string $type, object $data)
+    public function __construct(object $data)
     {
-        $this->type = $type;
         $this->data = $data;
     }
 
@@ -78,6 +72,9 @@ final class middleWare
         return $youtube->getMovie();
     }
 
+    /**
+     * @return array|bool
+     */
     private function getTitleSearchByName()
     {
         $imdb = new titles();
