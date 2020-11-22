@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d26d185-12e1-4590-8fa5-3887db064fe0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProjectId" id="1kYVX1Ffhpxm7JAji8IZ611bj4Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php-8.0.0RC3/php.ini-production" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joshu\OneDrive\Documenten\projects\dept\lib" />
+      <recent name="C:\Users\joshu\OneDrive\Documenten\projects\dept\lib\helpers" />
+      <recent name="C:\Users\joshu\OneDrive\Documenten\projects\dept\lib\utils" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d26d185-12e1-4590-8fa5-3887db064fe0" name="Default Changelist" comment="" />
+      <created>1605877547692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605877547692</updated>
+      <workItem from="1605877548773" duration="17199000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1605885976893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#CLI_Interpreters/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605885976893" />
+    <state x="421" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606047341642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="421" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606047341642" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606049136555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606049136555" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605885787210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605885787210" />
+    <state x="715" y="243" key="NewPhpClassDialog" timestamp="1606047351886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="243" key="NewPhpClassDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606047351886" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1605877564205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605877564205" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1605887490292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605887490292" />
+    <state x="677" y="291" key="refactoring.ChangeSignatureDialog" timestamp="1605883272426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="291" key="refactoring.ChangeSignatureDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605883272426" />
+  </component>
+</project>
