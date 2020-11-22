@@ -48,7 +48,7 @@ class titles
         );
 
         $bundle = [];
-        foreach (array_slice($titles, 0, $data->amount) as $title)
+        foreach (array_slice($titles, 0, $data->amount) as $title) // @todo fix that amount will be saved under cache
         {
             $bundle[] = $request->getRequest(
                 'title/get-details?tconst=' . substr($title, 7)
