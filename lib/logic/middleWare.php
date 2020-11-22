@@ -31,6 +31,8 @@ final class middleWare
     }
 
     /**
+     * Select method and give the right data back
+     *
      * @return string
      */
     public function run()
@@ -42,6 +44,8 @@ final class middleWare
                     return $this->getMovieTitles();
                 case 'movies':
                     return $this->getMovies();
+                case 'search':
+                    return $this->getTitleSearchByName();
                 default:
                     return false;
             }
@@ -72,5 +76,11 @@ final class middleWare
             $this->data->titleName
         );
         return $youtube->getMovie();
+    }
+
+    private function getTitleSearchByName()
+    {
+        $imdb = new titles();
+        return $imdb->getTitleByName($this->data->searchName);
     }
 }

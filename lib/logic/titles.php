@@ -58,4 +58,38 @@ class titles
         $cache->setCache(json_encode($bundle));
         return $cache->getCache();
     }
+
+    /**
+     * Search movie title by name and retrieve all details
+     *
+     * @param string|null $name
+     * @return array|bool
+     */
+    public function getTitleByName(string $name = null)
+    {
+        if(empty($name)) {
+            return false;
+        }
+
+        $cache = new cache(
+            'titles',
+            date("Ymd")
+        );
+        $titles = json_decode($cache->getCache(), true);
+
+        $request = new outsideModule(
+            self::BASE_URL,
+            self::HOST,
+            self::KEY
+        );
+
+        foreach ($titles as $title) {
+            if ( strpos(strtolower($title['title']), strtolower($name) ) !== false ) {
+                return $request->getRequest(
+                    'title/get-details?tconst=' . substr($title['id'], 7));
+            } else {
+                return false;
+            }
+        }
+    }
 }

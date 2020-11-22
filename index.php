@@ -8,9 +8,10 @@ $rest = new rest(
     '123',
     'hello',
     [
-        'method' => 'movies',
+        'method' => 'titles',
+        'searchName' => 'mutants',
         'amount' => 4,
         'titleName' => 'gta',
     ]
 );
-var_dump($rest->run());
+print_r($rest->run());
