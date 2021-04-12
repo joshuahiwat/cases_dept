@@ -53,7 +53,7 @@ final class middleWare
      *
      * @return string
      */
-    private function getMovieTitles()
+    private function getMovieTitles(): string
     {
         $imdb = new titles();
         return $imdb->getTitlesByGenre($this->data);

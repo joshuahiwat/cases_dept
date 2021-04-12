@@ -2,6 +2,7 @@
 
 namespace lib\logic;
 
+use josegonzalez\Dotenv\Loader;
 use lib\helpers\cache;
 use lib\helpers\outsideModule;
 
@@ -12,10 +13,6 @@ use lib\helpers\outsideModule;
  */
 class titles
 {
-    const BASE_URL = 'https://imdb8.p.rapidapi.com/'; // Base url from the api connector
-    const HOST = 'imdb8.p.rapidapi.com'; // Host to connect to receive data
-    const KEY = '2308d820cemsh687ef937bcf956ap1e75f4jsn091ee7946466'; // API key to connect with the host
-
     /**
      * Get All movie titles by a specific genre
      *
@@ -24,7 +21,7 @@ class titles
      */
     public function getTitlesByGenre(
         object $data
-    )
+    ): string
     {
         $cache = new cache(
             'titles',
@@ -67,6 +64,10 @@ class titles
      */
     public function getTitleByName(string $name = null)
     {
+        $Loader = new Loader('.env');
+        $Loader->parse();
+        $Loader->toEnv(true);
+
         if(empty($name)) {
             return false;
         }
@@ -78,9 +79,9 @@ class titles
         $titles = json_decode($cache->getCache(), true);
 
         $request = new outsideModule(
-            self::BASE_URL,
-            self::HOST,
-            self::KEY
+            $_ENV['BASE_URL'],
+            $_ENV['HOST'],
+            $_ENV['KEY']
         );
 
         foreach ($titles as $title) {

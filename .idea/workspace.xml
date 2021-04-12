@@ -20,14 +20,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d26d185-12e1-4590-8fa5-3887db064fe0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/view/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/default-skin-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/default-skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/default-skin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/mCSB_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/owl.video.play.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/photoswipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/css/preloader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/fonts/ioniconse0a5.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/fonts/ioniconse0a5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/fonts/ioniconse0a5.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/fonts/ioniconse0a5.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/fonts/ioniconse0a5.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/icon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/covers/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/covers/cover2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/covers/cover3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/covers/cover4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/covers/cover5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/covers/cover6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/gallery/project-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/gallery/project-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/gallery/project-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/gallery/project-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/gallery/project-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/gallery/project-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/home/home__bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/home/home__bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/home/home__bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/home/home__bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/home/home__bg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/partners/3docean-light-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/partners/activeden-light-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/partners/audiojungle-light-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/partners/codecanyon-light-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/partners/photodune-light-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/partners/themeforest-light-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/section/details.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/section/section.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/img/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/includes/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/includes/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/includes/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/jquery.mCustomScrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/jquery.morelines.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/photoswipe-ui-default.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/photoswipe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/plyr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/js/wNumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logic/middleWare.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/middleWare.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/logic/titles.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logic/titles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/rest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -43,16 +117,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kYVX1Ffhpxm7JAji8IZ611bj4Y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php-8.0.0RC3/php.ini-production" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -72,7 +150,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605877547692</updated>
       <workItem from="1605877548773" duration="27427000" />
-      <workItem from="1606067375512" duration="1540000" />
+      <workItem from="1606067375512" duration="6266000" />
+      <workItem from="1606309315230" duration="887000" />
+      <workItem from="1618216447790" duration="398000" />
     </task>
     <servers />
   </component>
@@ -89,39 +169,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1605885976893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="175" key="#CLI_Interpreters/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605885976893" />
-    <state x="421" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606047341642">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="421" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606047341642" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606049136555">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606049136555" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605885787210">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605885787210" />
-    <state x="715" y="243" key="NewPhpClassDialog" timestamp="1606047351886">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="715" y="243" key="NewPhpClassDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606047351886" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1605877564205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="794" y="443" key="NewPhpFileDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605877564205" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1605887490292">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605887490292" />
-    <state x="677" y="291" key="refactoring.ChangeSignatureDialog" timestamp="1605883272426">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="677" y="291" key="refactoring.ChangeSignatureDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605883272426" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '13da601d3ab0f49224da79a5e7fc3cb2852b6fd5',
+    'reference' => '93b8cb58bbf06b773853abed89ab42ed9b243901',
     'name' => '__root__',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '13da601d3ab0f49224da79a5e7fc3cb2852b6fd5',
+      'reference' => '93b8cb58bbf06b773853abed89ab42ed9b243901',
     ),
     'josegonzalez/dotenv' => 
     array (

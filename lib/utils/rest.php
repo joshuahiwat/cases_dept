@@ -35,11 +35,11 @@ final class rest
      * @param string $credentials
      * @return bool
      */
-    private function getCredentials(string $credentials)
+    private function getCredentials(string $credentials): bool
     {
         $Loader = new Loader('.env');
         $Loader->parse();
-        $Loader->toEnv();
+        $Loader->toEnv(true);
 
         if($credentials == $_ENV['key']) {
             return true;
